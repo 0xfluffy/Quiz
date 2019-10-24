@@ -10,7 +10,7 @@ def getQuiz():
     # Must use double slash or it wont work. For Windows must use utf-8
     # Opens the file data.json and loads the data into the dict data, after everthing is dumped then returns the dict
     #give the whole path where the file is stored so that program could collect the data from the file to run quiz
-    with open('C:\\Users\\Name\\Desktop\\5420-Programming Fundamentals\\Assignment\\data.json', encoding='utf-8') as json_data:
+    with open('Path of the File', encoding='utf-8') as json_data:
         data = json.load(json_data)
     return data
 
